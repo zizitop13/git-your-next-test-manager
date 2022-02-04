@@ -1,1 +1,4 @@
 .idea
+/git-your-next-test-manager.iml
+/tests/runners/cucumber/cucumber.iml
+/tests/runners/cucumber/target/
