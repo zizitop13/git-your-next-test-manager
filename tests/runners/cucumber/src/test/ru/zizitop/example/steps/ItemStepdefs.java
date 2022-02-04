@@ -1,7 +1,6 @@
 package ru.zizitop.example.steps;
 
 import io.cucumber.java.ru.Если;
-import io.cucumber.java.ru.И;
 import io.cucumber.java.ru.Тогда;
 
 public class ItemStepdefs {
