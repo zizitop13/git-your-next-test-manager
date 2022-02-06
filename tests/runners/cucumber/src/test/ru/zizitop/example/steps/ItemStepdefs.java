@@ -4,7 +4,7 @@ import io.cucumber.java.ru.Если;
 import io.cucumber.java.ru.Тогда;
 import org.junit.Assert;
 
-import static ru.zizitop.example.pages.Pages.shopCartPage;
+import static ru.zizitop.example.pages.ShopPages.shopCartPage;
 
 public class ItemStepdefs {
 

@@ -6,8 +6,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class Pages {
-    private Pages(){}
+public class ShopPages {
+
+    private ShopPages(){}
 
     static {
         WebDriverManager.chromedriver().setup();
