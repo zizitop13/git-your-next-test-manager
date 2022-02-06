@@ -7,7 +7,9 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         glue = "ru.zizitop.example.steps",
-        features = "classpath:features/cart"
+        features = "classpath:features/cart",
+        plugin = { "pretty", "html:target/cucumber-reports.html" }
+
 )
 public class CucumberRun {
 }
