@@ -10,6 +10,7 @@ class Counters extends Component {
         <div className="row">
           <div className=''>
             <button
+              id="refresh-cart"
               className="btn btn-success m-2"
               onClick={onReset}
               disabled={counters.length === 0 ? "disabled" : ""}
