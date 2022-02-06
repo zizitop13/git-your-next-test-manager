@@ -6,7 +6,7 @@ class Counter extends Component {
       <div>
         <div className="row">
           <div className="">
-            <span style={{ fontSize: 24 }} className={this.getBadgeClasses()}>
+            <span id={`item-counter-${this.props.counter.id}`} style={{ fontSize: 24 }} className={this.getBadgeClasses()}>
               {this.formatCount()}
             </span>
           </div>

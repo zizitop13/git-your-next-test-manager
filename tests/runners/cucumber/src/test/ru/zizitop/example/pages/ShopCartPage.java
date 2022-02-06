@@ -11,7 +11,7 @@ public class ShopCartPage {
 
     @FindBy(xpath = "//*[contains(@id, 'total-counters')]")
     private WebElement totalCounters;
-    private final WebDriver driver;
+    public final WebDriver driver;
 
     public ShopCartPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
@@ -22,7 +22,20 @@ public class ShopCartPage {
         return Integer.parseInt(totalCounters.getText());
     }
 
-    public void addItem(int itemId) {
+    public void plusItemButton(int itemId) {
         driver.findElement(id("btn-plus-"+itemId)).click();
+    }
+
+    public void minusItemButton(int itemId) {
+        driver.findElement(id("btn-minus-"+itemId)).click();
+    }
+
+    public void trashItemButton(int itemId) {
+        driver.findElement(id("btn-trash-"+itemId)).click();
+    }
+
+    public String getItemNumber(int itemId) {
+        return driver.findElement(id("item-counter-"+itemId))
+                .getText();
     }
 }
