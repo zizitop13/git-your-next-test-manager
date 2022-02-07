@@ -1,0 +1,61 @@
+[ {
+  "uid" : "24f11637c36308e3",
+  "name" : "Добавление нескольких единиц одного наименования",
+  "time" : {
+    "start" : 1644242120082,
+    "stop" : 1644242120085,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bc7dbc15c3b968b2",
+  "name" : "Уменьшение количества одного наименования до единицы",
+  "time" : {
+    "start" : 1644242120126,
+    "stop" : 1644242120131,
+    "duration" : 5
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4c05589b395f7d67",
+  "name" : "Удаление наименования",
+  "time" : {
+    "start" : 1644242120143,
+    "stop" : 1644242120146,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2ac95a661c0d19a6",
+  "name" : "Уменьшение количества одного наименования до нуля",
+  "time" : {
+    "start" : 1644242120096,
+    "stop" : 1644242120111,
+    "duration" : 15
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f90ea53099979e32",
+  "name" : "Сброс корзины для четырех наименований",
+  "time" : {
+    "start" : 1644242099475,
+    "stop" : 1644242119905,
+    "duration" : 20430
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4e27d7b961c9a7bb",
+  "name" : "Добавление четырех наименований",
+  "time" : {
+    "start" : 1644242120039,
+    "stop" : 1644242120060,
+    "duration" : 21
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

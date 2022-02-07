@@ -1,0 +1,85 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Управление корзиной",
+    "children" : [ {
+      "name" : "Сброс корзины для четырех наименований",
+      "uid" : "f90ea53099979e32",
+      "parentUid" : "9f57c08de6a0b9d685498e8301d87113",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644242099475,
+        "stop" : 1644242119905,
+        "duration" : 20430
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9f57c08de6a0b9d685498e8301d87113"
+  }, {
+    "name" : "Управление количеством наименований",
+    "children" : [ {
+      "name" : "Добавление четырех наименований",
+      "uid" : "4e27d7b961c9a7bb",
+      "parentUid" : "b4fd04e7df0d5761f26f3a277408632f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644242120039,
+        "stop" : 1644242120060,
+        "duration" : 21
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Добавление нескольких единиц одного наименования",
+      "uid" : "24f11637c36308e3",
+      "parentUid" : "b4fd04e7df0d5761f26f3a277408632f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644242120082,
+        "stop" : 1644242120085,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Уменьшение количества одного наименования до нуля",
+      "uid" : "2ac95a661c0d19a6",
+      "parentUid" : "b4fd04e7df0d5761f26f3a277408632f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644242120096,
+        "stop" : 1644242120111,
+        "duration" : 15
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Уменьшение количества одного наименования до единицы",
+      "uid" : "bc7dbc15c3b968b2",
+      "parentUid" : "b4fd04e7df0d5761f26f3a277408632f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644242120126,
+        "stop" : 1644242120131,
+        "duration" : 5
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Удаление наименования",
+      "uid" : "4c05589b395f7d67",
+      "parentUid" : "b4fd04e7df0d5761f26f3a277408632f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644242120143,
+        "stop" : 1644242120146,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b4fd04e7df0d5761f26f3a277408632f"
+  } ],
+  "name" : "suites"
+}

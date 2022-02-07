@@ -1,0 +1,89 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "java.lang.ExceptionInInitializerError",
+      "children" : [ {
+        "name" : "Сброс корзины для четырех наименований",
+        "uid" : "f90ea53099979e32",
+        "parentUid" : "23c735c6e127ac141b5fc0032a72191a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644242099475,
+          "stop" : 1644242119905,
+          "duration" : 20430
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "23c735c6e127ac141b5fc0032a72191a"
+    }, {
+      "name" : "Could not initialize class ru.zizitop.example.pages.ShopPages",
+      "children" : [ {
+        "name" : "Добавление четырех наименований",
+        "uid" : "4e27d7b961c9a7bb",
+        "parentUid" : "8dde8ebb0f3fb50ec23049d1c19ff8b5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644242120039,
+          "stop" : 1644242120060,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Добавление нескольких единиц одного наименования",
+        "uid" : "24f11637c36308e3",
+        "parentUid" : "8dde8ebb0f3fb50ec23049d1c19ff8b5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644242120082,
+          "stop" : 1644242120085,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Уменьшение количества одного наименования до нуля",
+        "uid" : "2ac95a661c0d19a6",
+        "parentUid" : "8dde8ebb0f3fb50ec23049d1c19ff8b5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644242120096,
+          "stop" : 1644242120111,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Уменьшение количества одного наименования до единицы",
+        "uid" : "bc7dbc15c3b968b2",
+        "parentUid" : "8dde8ebb0f3fb50ec23049d1c19ff8b5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644242120126,
+          "stop" : 1644242120131,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Удаление наименования",
+        "uid" : "4c05589b395f7d67",
+        "parentUid" : "8dde8ebb0f3fb50ec23049d1c19ff8b5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644242120143,
+          "stop" : 1644242120146,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8dde8ebb0f3fb50ec23049d1c19ff8b5"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

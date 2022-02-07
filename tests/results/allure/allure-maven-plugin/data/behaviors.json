@@ -1,0 +1,109 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Управление корзиной",
+    "children" : [ {
+      "name" : "Сброс корзины для четырех наименований",
+      "children" : [ {
+        "name" : "Сброс корзины для четырех наименований",
+        "uid" : "f90ea53099979e32",
+        "parentUid" : "f8d385d80308bd379497ffd670607579",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644242099475,
+          "stop" : 1644242119905,
+          "duration" : 20430
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f8d385d80308bd379497ffd670607579"
+    } ],
+    "uid" : "d7969461e17c8ddaef7b24dbcfbb79cb"
+  }, {
+    "name" : "Управление количеством наименований",
+    "children" : [ {
+      "name" : "Добавление четырех наименований",
+      "children" : [ {
+        "name" : "Добавление четырех наименований",
+        "uid" : "4e27d7b961c9a7bb",
+        "parentUid" : "a7669c31663de604ceea86415d7dc38e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644242120039,
+          "stop" : 1644242120060,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a7669c31663de604ceea86415d7dc38e"
+    }, {
+      "name" : "Добавление нескольких единиц одного наименования",
+      "children" : [ {
+        "name" : "Добавление нескольких единиц одного наименования",
+        "uid" : "24f11637c36308e3",
+        "parentUid" : "e3fedbdd73bdc1c1d7cff367f15b6deb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644242120082,
+          "stop" : 1644242120085,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e3fedbdd73bdc1c1d7cff367f15b6deb"
+    }, {
+      "name" : "Уменьшение количества одного наименования до нуля",
+      "children" : [ {
+        "name" : "Уменьшение количества одного наименования до нуля",
+        "uid" : "2ac95a661c0d19a6",
+        "parentUid" : "9a810a284a2735ece3af78227aa015b2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644242120096,
+          "stop" : 1644242120111,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9a810a284a2735ece3af78227aa015b2"
+    }, {
+      "name" : "Уменьшение количества одного наименования до единицы",
+      "children" : [ {
+        "name" : "Уменьшение количества одного наименования до единицы",
+        "uid" : "bc7dbc15c3b968b2",
+        "parentUid" : "50935b60624b1b762164a0c2d5bb75d3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644242120126,
+          "stop" : 1644242120131,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "50935b60624b1b762164a0c2d5bb75d3"
+    }, {
+      "name" : "Удаление наименования",
+      "children" : [ {
+        "name" : "Удаление наименования",
+        "uid" : "4c05589b395f7d67",
+        "parentUid" : "abcd56e9476be0f7b094a1bd7afd6a86",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644242120143,
+          "stop" : 1644242120146,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "abcd56e9476be0f7b094a1bd7afd6a86"
+    } ],
+    "uid" : "85b15642caca8e2546473a40fba1a34d"
+  } ],
+  "name" : "behaviors"
+}

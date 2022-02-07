@@ -1,0 +1,122 @@
+{
+  "b3b46b7d45d5f85fac232dc70375067a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bc7dbc15c3b968b2",
+      "status" : "broken",
+      "statusDetails" : "Could not initialize class ru.zizitop.example.pages.ShopPages",
+      "time" : {
+        "start" : 1644242120126,
+        "stop" : 1644242120131,
+        "duration" : 5
+      }
+    } ]
+  },
+  "6d40dbfef313fea3edba9c9ffbf633d6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4c05589b395f7d67",
+      "status" : "broken",
+      "statusDetails" : "Could not initialize class ru.zizitop.example.pages.ShopPages",
+      "time" : {
+        "start" : 1644242120143,
+        "stop" : 1644242120146,
+        "duration" : 3
+      }
+    } ]
+  },
+  "95d2c79507f7ea53751e660e0d02545e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "24f11637c36308e3",
+      "status" : "broken",
+      "statusDetails" : "Could not initialize class ru.zizitop.example.pages.ShopPages",
+      "time" : {
+        "start" : 1644242120082,
+        "stop" : 1644242120085,
+        "duration" : 3
+      }
+    } ]
+  },
+  "7038e32303ff280cbdbfd3182a154bb2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4e27d7b961c9a7bb",
+      "status" : "broken",
+      "statusDetails" : "Could not initialize class ru.zizitop.example.pages.ShopPages",
+      "time" : {
+        "start" : 1644242120039,
+        "stop" : 1644242120060,
+        "duration" : 21
+      }
+    } ]
+  },
+  "9f2c782264db06b25b6768babb165800" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f90ea53099979e32",
+      "status" : "broken",
+      "statusDetails" : "java.lang.ExceptionInInitializerError",
+      "time" : {
+        "start" : 1644242099475,
+        "stop" : 1644242119905,
+        "duration" : 20430
+      }
+    } ]
+  },
+  "75a6ffe9fb078caebf9018efe6b75799" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2ac95a661c0d19a6",
+      "status" : "broken",
+      "statusDetails" : "Could not initialize class ru.zizitop.example.pages.ShopPages",
+      "time" : {
+        "start" : 1644242120096,
+        "stop" : 1644242120111,
+        "duration" : 15
+      }
+    } ]
+  }
+}
