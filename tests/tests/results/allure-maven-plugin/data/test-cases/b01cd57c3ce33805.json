@@ -1,0 +1,132 @@
+{
+  "uid" : "b01cd57c3ce33805",
+  "name" : "Удаление наименования",
+  "fullName" : "Управление количеством наименований: Удаление наименования",
+  "historyId" : "6d40dbfef313fea3edba9c9ffbf633d6",
+  "time" : {
+    "start" : 1644160451472,
+    "stop" : 1644160451742,
+    "duration" : 270
+  },
+  "description" : "  Я как пользователь хочу иметь возможность добавлять, уменьшать и убирать наименования,\n  видеть количество наименований в корзине и количество единиц для каждого добавленного наименования.",
+  "descriptionHtml" : "<p>Я как пользователь хочу иметь возможность добавлять, уменьшать и убирать наименования,\nвидеть количество наименований в корзине и количество единиц для каждого добавленного наименования.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "  Я как пользователь хочу иметь возможность добавлять, уменьшать и убирать наименования,\n  видеть количество наименований в корзине и количество единиц для каждого добавленного наименования.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Затем  пользователь нажмет на кнопку \"плюс\" для 1-го наименования",
+      "time" : {
+        "start" : 1644160451473,
+        "stop" : 1644160451545,
+        "duration" : 72
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Если  пользователь нажмет на кнопку \"удалить\" для 1-го наименования",
+      "time" : {
+        "start" : 1644160451545,
+        "stop" : 1644160451616,
+        "duration" : 71
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "И  количество наименований в корзине равно 0",
+      "time" : {
+        "start" : 1644160451617,
+        "stop" : 1644160451649,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "ru.zizitop.example.steps.Hooks.refresh()",
+    "time" : {
+      "start" : 1644160451649,
+      "stop" : 1644160451742,
+      "duration" : 93
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-9D098QB"
+  }, {
+    "name" : "thread",
+    "value" : "28308@DESKTOP-9D098QB.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Управление количеством наименований"
+  }, {
+    "name" : "story",
+    "value" : "Удаление наименования"
+  }, {
+    "name" : "suite",
+    "value" : "Управление количеством наименований"
+  }, {
+    "name" : "testClass",
+    "value" : "Удаление наименования"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "classpath:features/cart/items.feature"
+  }, {
+    "name" : "package",
+    "value" : "features.cart.items_feature.Управление количеством наименований"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b01cd57c3ce33805.json",
+  "parameterValues" : [ ]
+}

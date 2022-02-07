@@ -1,0 +1,181 @@
+{
+  "uid" : "28fd7de5f59b5061",
+  "name" : "Уменьшение количества одного наименования до нуля",
+  "fullName" : "Управление количеством наименований: Уменьшение количества одного наименования до нуля",
+  "historyId" : "75a6ffe9fb078caebf9018efe6b75799",
+  "time" : {
+    "start" : 1644215395167,
+    "stop" : 1644215395638,
+    "duration" : 471
+  },
+  "description" : "  Я как пользователь хочу иметь возможность добавлять, уменьшать и убирать наименования,\n  видеть количество наименований в корзине и количество единиц для каждого добавленного наименования.",
+  "descriptionHtml" : "<p>Я как пользователь хочу иметь возможность добавлять, уменьшать и убирать наименования,\nвидеть количество наименований в корзине и количество единиц для каждого добавленного наименования.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "  Я как пользователь хочу иметь возможность добавлять, уменьшать и убирать наименования,\n  видеть количество наименований в корзине и количество единиц для каждого добавленного наименования.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Если  пользователь нажмет на кнопку \"плюс\" для 1-го наименования",
+      "time" : {
+        "start" : 1644215395167,
+        "stop" : 1644215395242,
+        "duration" : 75
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Затем  пользователь нажмет на кнопку \"минус\" для 1-го наименования",
+      "time" : {
+        "start" : 1644215395243,
+        "stop" : 1644215395330,
+        "duration" : 87
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Тогда  количество единиц 1-го наименования равно 0",
+      "time" : {
+        "start" : 1644215395330,
+        "stop" : 1644215395372,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "И  количество наименований в корзине равно 0",
+      "time" : {
+        "start" : 1644215395372,
+        "stop" : 1644215395406,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "ru.zizitop.example.steps.Hooks.refresh()",
+    "time" : {
+      "start" : 1644215395406,
+      "stop" : 1644215395638,
+      "duration" : 232
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-9D098QB"
+  }, {
+    "name" : "thread",
+    "value" : "30304@DESKTOP-9D098QB.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Управление количеством наименований"
+  }, {
+    "name" : "story",
+    "value" : "Уменьшение количества одного наименования до нуля"
+  }, {
+    "name" : "suite",
+    "value" : "Управление количеством наименований"
+  }, {
+    "name" : "testClass",
+    "value" : "Уменьшение количества одного наименования до нуля"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "classpath:features/cart/items.feature"
+  }, {
+    "name" : "package",
+    "value" : "features.cart.items_feature.Управление количеством наименований"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1506926d439663df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644160450790,
+        "stop" : 1644160451102,
+        "duration" : 312
+      }
+    }, {
+      "uid" : "5333797cf8f95264",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644160312741,
+        "stop" : 1644160313071,
+        "duration" : 330
+      }
+    }, {
+      "uid" : "26407290c5d2a2b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644160286093,
+        "stop" : 1644160286422,
+        "duration" : 329
+      }
+    }, {
+      "uid" : "c7e97d7451ae3f3f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644160254075,
+        "stop" : 1644160254389,
+        "duration" : 314
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "28fd7de5f59b5061.json",
+  "parameterValues" : [ ]
+}

@@ -122,5 +122,6 @@
                 <version>2.10.0</version>
             </plugin>
         </plugins>
+        <outputDirectory>../../tests/results</outputDirectory>
     </reporting>
 </project>

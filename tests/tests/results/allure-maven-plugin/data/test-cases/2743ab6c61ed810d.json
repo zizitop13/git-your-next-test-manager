@@ -1,0 +1,237 @@
+{
+  "uid" : "2743ab6c61ed810d",
+  "name" : "Сброс корзины для четырех наименований",
+  "fullName" : "Управление корзиной: Сброс корзины для четырех наименований",
+  "historyId" : "9f2c782264db06b25b6768babb165800",
+  "time" : {
+    "start" : 1644160307071,
+    "stop" : 1644160311808,
+    "duration" : 4737
+  },
+  "description" : "  Я как пользователь хочу иметь возможность сбросить всю корзину нажатием одной кнопки",
+  "descriptionHtml" : "<p>Я как пользователь хочу иметь возможность сбросить всю корзину нажатием одной кнопки</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "  Я как пользователь хочу иметь возможность сбросить всю корзину нажатием одной кнопки",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Если  пользователь нажмет на кнопку \"плюс\" для 1-го наименования",
+      "time" : {
+        "start" : 1644160307077,
+        "stop" : 1644160311212,
+        "duration" : 4135
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Затем  пользователь нажмет на кнопку \"плюс\" для 2-го наименования",
+      "time" : {
+        "start" : 1644160311218,
+        "stop" : 1644160311276,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Затем  пользователь нажмет на кнопку \"плюс\" для 3-го наименования",
+      "time" : {
+        "start" : 1644160311277,
+        "stop" : 1644160311334,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Затем  пользователь нажмет на кнопку \"плюс\" для 4-го наименования",
+      "time" : {
+        "start" : 1644160311335,
+        "stop" : 1644160311395,
+        "duration" : 60
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Затем  пользователь нажмет на кнопку \"сбросить\"",
+      "time" : {
+        "start" : 1644160311395,
+        "stop" : 1644160311484,
+        "duration" : 89
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Тогда  количество наименований в корзине равно 0",
+      "time" : {
+        "start" : 1644160311485,
+        "stop" : 1644160311526,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "И  количество единиц 1-го наименования равно 0",
+      "time" : {
+        "start" : 1644160311526,
+        "stop" : 1644160311563,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "И  количество единиц 2-го наименования равно 0",
+      "time" : {
+        "start" : 1644160311566,
+        "stop" : 1644160311597,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "И  количество единиц 3-го наименования равно 0",
+      "time" : {
+        "start" : 1644160311598,
+        "stop" : 1644160311628,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "И  количество единиц 4-го наименования равно 0",
+      "time" : {
+        "start" : 1644160311629,
+        "stop" : 1644160311658,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 10
+  },
+  "afterStages" : [ {
+    "name" : "ru.zizitop.example.steps.Hooks.refresh()",
+    "time" : {
+      "start" : 1644160311660,
+      "stop" : 1644160311804,
+      "duration" : 144
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-9D098QB"
+  }, {
+    "name" : "thread",
+    "value" : "3980@DESKTOP-9D098QB.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Управление корзиной"
+  }, {
+    "name" : "story",
+    "value" : "Сброс корзины для четырех наименований"
+  }, {
+    "name" : "suite",
+    "value" : "Управление корзиной"
+  }, {
+    "name" : "testClass",
+    "value" : "Сброс корзины для четырех наименований"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "classpath:features/cart/cart.feature"
+  }, {
+    "name" : "package",
+    "value" : "features.cart.cart_feature.Управление корзиной"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2743ab6c61ed810d.json",
+  "parameterValues" : [ ]
+}
