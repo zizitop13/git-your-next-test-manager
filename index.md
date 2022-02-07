@@ -1,3 +1,3 @@
 ## Git your next test manager system
 
-[Test results](/tests/results/allure-maven.html)
+[Test results](/tests/results/allure-maven-plugin/index.html)
