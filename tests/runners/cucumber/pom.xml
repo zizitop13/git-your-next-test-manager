@@ -111,6 +111,51 @@
                     </dependency>
                 </dependencies>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>3.2.0</version>
+                <executions>
+                    <execution>
+                        <id>copy-allure-history</id>
+                        <phase>pre-site</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${basedir}/target/allure-results/history</outputDirectory>
+                            <resources>
+                                <resource>
+                                    <directory>../../results/allure/allure-maven-plugin/history</directory>
+                                    <includes>
+                                        <include>**/**</include>
+                                    </includes>
+                                    <filtering>false</filtering>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>copy-allure-results</id>
+                        <phase>site</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>../../results/allure</outputDirectory>
+                            <resources>
+                                <resource>
+                                    <directory>${basedir}/target/site</directory>
+                                    <includes>
+                                        <include>**/**</include>
+                                    </includes>
+                                    <filtering>false</filtering>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
     </build>
     <reporting>
@@ -122,6 +167,5 @@
                 <version>2.10.0</version>
             </plugin>
         </plugins>
-        <outputDirectory>../../results</outputDirectory>
     </reporting>
 </project>
