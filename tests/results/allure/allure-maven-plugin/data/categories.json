@@ -6,13 +6,13 @@
       "name" : "java.lang.ExceptionInInitializerError",
       "children" : [ {
         "name" : "Сброс корзины для четырех наименований",
-        "uid" : "7488318fa22e48b1",
+        "uid" : "ac1f158fd11e2edb",
         "parentUid" : "23c735c6e127ac141b5fc0032a72191a",
         "status" : "broken",
         "time" : {
-          "start" : 1644318636613,
-          "stop" : 1644318664949,
-          "duration" : 28336
+          "start" : 1644319377410,
+          "stop" : 1644319400890,
+          "duration" : 23480
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -22,61 +22,61 @@
       "name" : "Could not initialize class ru.zizitop.example.pages.ShopPages",
       "children" : [ {
         "name" : "Добавление четырех наименований",
-        "uid" : "928885cbaadb99f7",
+        "uid" : "6fa8c2bb72eeda14",
         "parentUid" : "8dde8ebb0f3fb50ec23049d1c19ff8b5",
         "status" : "broken",
         "time" : {
-          "start" : 1644318664979,
-          "stop" : 1644318664985,
-          "duration" : 6
+          "start" : 1644319400963,
+          "stop" : 1644319400987,
+          "duration" : 24
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Добавление нескольких единиц одного наименования",
-        "uid" : "7839bfff86a8e78d",
+        "uid" : "2218776fdabe3f28",
         "parentUid" : "8dde8ebb0f3fb50ec23049d1c19ff8b5",
         "status" : "broken",
         "time" : {
-          "start" : 1644318665023,
-          "stop" : 1644318665033,
-          "duration" : 10
+          "start" : 1644319401004,
+          "stop" : 1644319401008,
+          "duration" : 4
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Уменьшение количества одного наименования до нуля",
-        "uid" : "51a269d10b982d83",
+        "uid" : "8f1d08d4fc3f4e86",
         "parentUid" : "8dde8ebb0f3fb50ec23049d1c19ff8b5",
         "status" : "broken",
         "time" : {
-          "start" : 1644318665052,
-          "stop" : 1644318665074,
-          "duration" : 22
+          "start" : 1644319401013,
+          "stop" : 1644319401031,
+          "duration" : 18
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Уменьшение количества одного наименования до единицы",
-        "uid" : "937c59cee4140221",
+        "uid" : "987179fbea797cbb",
         "parentUid" : "8dde8ebb0f3fb50ec23049d1c19ff8b5",
         "status" : "broken",
         "time" : {
-          "start" : 1644318665083,
-          "stop" : 1644318665098,
-          "duration" : 15
+          "start" : 1644319401047,
+          "stop" : 1644319401053,
+          "duration" : 6
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Удаление наименования",
-        "uid" : "de684c5bf31e609a",
+        "uid" : "288536ecea3ae8db",
         "parentUid" : "8dde8ebb0f3fb50ec23049d1c19ff8b5",
         "status" : "broken",
         "time" : {
-          "start" : 1644318665104,
-          "stop" : 1644318665126,
-          "duration" : 22
+          "start" : 1644319401057,
+          "stop" : 1644319401061,
+          "duration" : 4
         },
         "flaky" : false,
         "parameters" : [ ]
