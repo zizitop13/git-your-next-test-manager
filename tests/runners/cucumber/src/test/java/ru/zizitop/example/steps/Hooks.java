@@ -1,12 +1,11 @@
 package ru.zizitop.example.steps;
 
 import io.cucumber.java.After;
-
-import static ru.zizitop.example.pages.ShopPages.shopCartPage;
+import ru.zizitop.example.pages.ShopPages;
 
 public class Hooks {
     @After
     public void refresh() {
-        shopCartPage.driver.navigate().refresh();
+        ShopPages.driver.navigate().refresh();
     }
 }

@@ -2,20 +2,31 @@ package ru.zizitop.example.pages;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
 public class ShopPages {
 
-    private ShopPages(){}
+    private ShopPages() {
+    }
+
+    public static WebDriverManager wdm;
+
+    public static WebDriver driver;
 
     static {
-        WebDriverManager.chromedriver().setup();
-        WebDriver driver = new ChromeDriver();
+        var host = "localhost";
+        var env = System.getenv("ENV");
+        wdm = WebDriverManager.chromedriver();
+        if (env != null && env.equals("CI")) {
+            host = "host.docker.internal";
+            wdm = wdm.browserInDocker()
+                    .enableRecording();
+        }
+        driver = wdm.create();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        driver.get("http://localhost:3000/");
+        driver.get("http://" + host + ":3000/");
         shopCartPage = new ShopCartPage(driver);
     }
 

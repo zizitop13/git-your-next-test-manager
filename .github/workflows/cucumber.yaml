@@ -44,6 +44,8 @@ jobs:
       - name: run tests
         id: tests
         run: mvn clean test site --file tests/runners/cucumber/pom.xml
+        env:
+          ENV: CI
 
       - name: publish to git
         uses: stefanzweifel/git-auto-commit-action@v4
