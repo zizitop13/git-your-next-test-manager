@@ -1,85 +1,85 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "fv-az190-627",
+    "name" : "fv-az296-870",
     "children" : [ {
-      "name" : "2029@fv-az190-627.main(1)",
+      "name" : "1876@fv-az296-870.main(1)",
       "children" : [ {
-        "name" : "Добавление четырех наименований",
-        "uid" : "928885cbaadb99f7",
-        "parentUid" : "3108e86e1a6e3c8bd733e7789d4efaeb",
-        "status" : "broken",
-        "time" : {
-          "start" : 1644318664979,
-          "stop" : 1644318664985,
-          "duration" : 6
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "Удаление наименования",
-        "uid" : "de684c5bf31e609a",
-        "parentUid" : "3108e86e1a6e3c8bd733e7789d4efaeb",
+        "uid" : "288536ecea3ae8db",
+        "parentUid" : "ec1ca44655e0436d7131d0f0422bac08",
         "status" : "broken",
         "time" : {
-          "start" : 1644318665104,
-          "stop" : 1644318665126,
-          "duration" : 22
+          "start" : 1644319401057,
+          "stop" : 1644319401061,
+          "duration" : 4
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Добавление нескольких единиц одного наименования",
-        "uid" : "7839bfff86a8e78d",
-        "parentUid" : "3108e86e1a6e3c8bd733e7789d4efaeb",
+        "uid" : "2218776fdabe3f28",
+        "parentUid" : "ec1ca44655e0436d7131d0f0422bac08",
         "status" : "broken",
         "time" : {
-          "start" : 1644318665023,
-          "stop" : 1644318665033,
-          "duration" : 10
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Уменьшение количества одного наименования до нуля",
-        "uid" : "51a269d10b982d83",
-        "parentUid" : "3108e86e1a6e3c8bd733e7789d4efaeb",
-        "status" : "broken",
-        "time" : {
-          "start" : 1644318665052,
-          "stop" : 1644318665074,
-          "duration" : 22
+          "start" : 1644319401004,
+          "stop" : 1644319401008,
+          "duration" : 4
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Сброс корзины для четырех наименований",
-        "uid" : "7488318fa22e48b1",
-        "parentUid" : "3108e86e1a6e3c8bd733e7789d4efaeb",
+        "uid" : "ac1f158fd11e2edb",
+        "parentUid" : "ec1ca44655e0436d7131d0f0422bac08",
         "status" : "broken",
         "time" : {
-          "start" : 1644318636613,
-          "stop" : 1644318664949,
-          "duration" : 28336
+          "start" : 1644319377410,
+          "stop" : 1644319400890,
+          "duration" : 23480
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Уменьшение количества одного наименования до нуля",
+        "uid" : "8f1d08d4fc3f4e86",
+        "parentUid" : "ec1ca44655e0436d7131d0f0422bac08",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644319401013,
+          "stop" : 1644319401031,
+          "duration" : 18
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Добавление четырех наименований",
+        "uid" : "6fa8c2bb72eeda14",
+        "parentUid" : "ec1ca44655e0436d7131d0f0422bac08",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644319400963,
+          "stop" : 1644319400987,
+          "duration" : 24
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Уменьшение количества одного наименования до единицы",
-        "uid" : "937c59cee4140221",
-        "parentUid" : "3108e86e1a6e3c8bd733e7789d4efaeb",
+        "uid" : "987179fbea797cbb",
+        "parentUid" : "ec1ca44655e0436d7131d0f0422bac08",
         "status" : "broken",
         "time" : {
-          "start" : 1644318665083,
-          "stop" : 1644318665098,
-          "duration" : 15
+          "start" : 1644319401047,
+          "stop" : 1644319401053,
+          "duration" : 6
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "3108e86e1a6e3c8bd733e7789d4efaeb"
+      "uid" : "ec1ca44655e0436d7131d0f0422bac08"
     } ],
-    "uid" : "d17701453d75ddbd1dd77563dab87512"
+    "uid" : "1c9fb67055b9db102db4e3dd16d9c715"
   } ],
   "name" : "timeline"
 }
