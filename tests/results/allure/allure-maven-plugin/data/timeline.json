@@ -1,85 +1,85 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "fv-az272-766",
+    "name" : "fv-az196-798",
     "children" : [ {
-      "name" : "1930@fv-az272-766.main(1)",
+      "name" : "1935@fv-az196-798.main(1)",
       "children" : [ {
-        "name" : "Сброс корзины для четырех наименований",
-        "uid" : "aafa9e4f36797723",
-        "parentUid" : "71b1e0c5afe8f43b16e6a9eaf1979154",
-        "status" : "broken",
-        "time" : {
-          "start" : 1644317275057,
-          "stop" : 1644317301382,
-          "duration" : 26325
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "Уменьшение количества одного наименования до единицы",
-        "uid" : "fc638ac4316031d",
-        "parentUid" : "71b1e0c5afe8f43b16e6a9eaf1979154",
+        "uid" : "acedc71bfe86e805",
+        "parentUid" : "3068df29046dfc52d20df21ed0106bc9",
         "status" : "broken",
         "time" : {
-          "start" : 1644317301515,
-          "stop" : 1644317301519,
-          "duration" : 4
+          "start" : 1644317491597,
+          "stop" : 1644317491612,
+          "duration" : 15
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Добавление нескольких единиц одного наименования",
-        "uid" : "17597ff0e93619e9",
-        "parentUid" : "71b1e0c5afe8f43b16e6a9eaf1979154",
+        "name" : "Сброс корзины для четырех наименований",
+        "uid" : "6562fa9744e09a42",
+        "parentUid" : "3068df29046dfc52d20df21ed0106bc9",
         "status" : "broken",
         "time" : {
-          "start" : 1644317301480,
-          "stop" : 1644317301488,
-          "duration" : 8
+          "start" : 1644317465570,
+          "stop" : 1644317491506,
+          "duration" : 25936
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Уменьшение количества одного наименования до нуля",
-        "uid" : "106a336283bb0288",
-        "parentUid" : "71b1e0c5afe8f43b16e6a9eaf1979154",
+        "uid" : "9c1453967e6262f3",
+        "parentUid" : "3068df29046dfc52d20df21ed0106bc9",
         "status" : "broken",
         "time" : {
-          "start" : 1644317301493,
-          "stop" : 1644317301502,
+          "start" : 1644317491576,
+          "stop" : 1644317491584,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Добавление четырех наименований",
+        "uid" : "482105d486f64326",
+        "parentUid" : "3068df29046dfc52d20df21ed0106bc9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644317491533,
+          "stop" : 1644317491542,
           "duration" : 9
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Удаление наименования",
-        "uid" : "7c4bcd4a96bf3bbd",
-        "parentUid" : "71b1e0c5afe8f43b16e6a9eaf1979154",
+        "uid" : "51636b635e770b01",
+        "parentUid" : "3068df29046dfc52d20df21ed0106bc9",
         "status" : "broken",
         "time" : {
-          "start" : 1644317301530,
-          "stop" : 1644317301534,
-          "duration" : 4
+          "start" : 1644317491624,
+          "stop" : 1644317491643,
+          "duration" : 19
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Добавление четырех наименований",
-        "uid" : "e8384954b4c03bf8",
-        "parentUid" : "71b1e0c5afe8f43b16e6a9eaf1979154",
+        "name" : "Добавление нескольких единиц одного наименования",
+        "uid" : "ad435af6c2ae4d5a",
+        "parentUid" : "3068df29046dfc52d20df21ed0106bc9",
         "status" : "broken",
         "time" : {
-          "start" : 1644317301437,
-          "stop" : 1644317301450,
-          "duration" : 13
+          "start" : 1644317491560,
+          "stop" : 1644317491569,
+          "duration" : 9
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "71b1e0c5afe8f43b16e6a9eaf1979154"
+      "uid" : "3068df29046dfc52d20df21ed0106bc9"
     } ],
-    "uid" : "1491b2976d02de6a871fcd93aab67d31"
+    "uid" : "7fce0a1d065642cd4383bb95d15eb365"
   } ],
   "name" : "timeline"
 }
