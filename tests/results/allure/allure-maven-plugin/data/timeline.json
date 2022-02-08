@@ -1,85 +1,85 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "fv-az129-413",
+    "name" : "fv-az272-766",
     "children" : [ {
-      "name" : "1938@fv-az129-413.main(1)",
+      "name" : "1930@fv-az272-766.main(1)",
       "children" : [ {
-        "name" : "Уменьшение количества одного наименования до единицы",
-        "uid" : "9dee8e1e46e0dd8d",
-        "parentUid" : "019926cc16319a7ba684fa3dbef78292",
+        "name" : "Сброс корзины для четырех наименований",
+        "uid" : "aafa9e4f36797723",
+        "parentUid" : "71b1e0c5afe8f43b16e6a9eaf1979154",
         "status" : "broken",
         "time" : {
-          "start" : 1644315859684,
-          "stop" : 1644315859693,
-          "duration" : 9
+          "start" : 1644317275057,
+          "stop" : 1644317301382,
+          "duration" : 26325
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Сброс корзины для четырех наименований",
-        "uid" : "a509748e7771eba5",
-        "parentUid" : "019926cc16319a7ba684fa3dbef78292",
+        "name" : "Уменьшение количества одного наименования до единицы",
+        "uid" : "fc638ac4316031d",
+        "parentUid" : "71b1e0c5afe8f43b16e6a9eaf1979154",
         "status" : "broken",
         "time" : {
-          "start" : 1644315837826,
-          "stop" : 1644315859420,
-          "duration" : 21594
+          "start" : 1644317301515,
+          "stop" : 1644317301519,
+          "duration" : 4
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Добавление нескольких единиц одного наименования",
-        "uid" : "5e692db9a6db4850",
-        "parentUid" : "019926cc16319a7ba684fa3dbef78292",
+        "uid" : "17597ff0e93619e9",
+        "parentUid" : "71b1e0c5afe8f43b16e6a9eaf1979154",
         "status" : "broken",
         "time" : {
-          "start" : 1644315859636,
-          "stop" : 1644315859650,
-          "duration" : 14
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Удаление наименования",
-        "uid" : "85eedca6742e8aec",
-        "parentUid" : "019926cc16319a7ba684fa3dbef78292",
-        "status" : "broken",
-        "time" : {
-          "start" : 1644315859704,
-          "stop" : 1644315859712,
+          "start" : 1644317301480,
+          "stop" : 1644317301488,
           "duration" : 8
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Добавление четырех наименований",
-        "uid" : "50bc7d15fe5713a6",
-        "parentUid" : "019926cc16319a7ba684fa3dbef78292",
+        "name" : "Уменьшение количества одного наименования до нуля",
+        "uid" : "106a336283bb0288",
+        "parentUid" : "71b1e0c5afe8f43b16e6a9eaf1979154",
         "status" : "broken",
         "time" : {
-          "start" : 1644315859574,
-          "stop" : 1644315859589,
-          "duration" : 15
+          "start" : 1644317301493,
+          "stop" : 1644317301502,
+          "duration" : 9
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Уменьшение количества одного наименования до нуля",
-        "uid" : "cb7bc9735b1525b",
-        "parentUid" : "019926cc16319a7ba684fa3dbef78292",
+        "name" : "Удаление наименования",
+        "uid" : "7c4bcd4a96bf3bbd",
+        "parentUid" : "71b1e0c5afe8f43b16e6a9eaf1979154",
         "status" : "broken",
         "time" : {
-          "start" : 1644315859662,
-          "stop" : 1644315859675,
+          "start" : 1644317301530,
+          "stop" : 1644317301534,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Добавление четырех наименований",
+        "uid" : "e8384954b4c03bf8",
+        "parentUid" : "71b1e0c5afe8f43b16e6a9eaf1979154",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644317301437,
+          "stop" : 1644317301450,
           "duration" : 13
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "019926cc16319a7ba684fa3dbef78292"
+      "uid" : "71b1e0c5afe8f43b16e6a9eaf1979154"
     } ],
-    "uid" : "0196bfb76a26c90f9df0953b75359c46"
+    "uid" : "1491b2976d02de6a871fcd93aab67d31"
   } ],
   "name" : "timeline"
 }
