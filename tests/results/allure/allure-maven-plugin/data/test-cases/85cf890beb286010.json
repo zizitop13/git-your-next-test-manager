@@ -1,0 +1,190 @@
+{
+  "uid" : "85cf890beb286010",
+  "name" : "Удаление наименования",
+  "fullName" : "Управление количеством наименований: Удаление наименования",
+  "historyId" : "6d40dbfef313fea3edba9c9ffbf633d6",
+  "time" : {
+    "start" : 1644320550471,
+    "stop" : 1644320550813,
+    "duration" : 342
+  },
+  "description" : "  Я как пользователь хочу иметь возможность добавлять, уменьшать и убирать наименования,\n  видеть количество наименований в корзине и количество единиц для каждого добавленного наименования.",
+  "descriptionHtml" : "<p>Я как пользователь хочу иметь возможность добавлять, уменьшать и убирать наименования,\nвидеть количество наименований в корзине и количество единиц для каждого добавленного наименования.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "  Я как пользователь хочу иметь возможность добавлять, уменьшать и убирать наименования,\n  видеть количество наименований в корзине и количество единиц для каждого добавленного наименования.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Затем  пользователь нажмет на кнопку \"плюс\" для 1-го наименования",
+      "time" : {
+        "start" : 1644320550471,
+        "stop" : 1644320550614,
+        "duration" : 143
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Если  пользователь нажмет на кнопку \"удалить\" для 1-го наименования",
+      "time" : {
+        "start" : 1644320550615,
+        "stop" : 1644320550670,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "И  количество наименований в корзине равно 0",
+      "time" : {
+        "start" : 1644320550670,
+        "stop" : 1644320550701,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "ru.zizitop.example.steps.Hooks.refresh()",
+    "time" : {
+      "start" : 1644320550701,
+      "stop" : 1644320550813,
+      "duration" : 112
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az278-258"
+  }, {
+    "name" : "thread",
+    "value" : "1877@fv-az278-258.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Управление количеством наименований"
+  }, {
+    "name" : "story",
+    "value" : "Удаление наименования"
+  }, {
+    "name" : "suite",
+    "value" : "Управление количеством наименований"
+  }, {
+    "name" : "testClass",
+    "value" : "Удаление наименования"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "classpath:features/cart/items.feature"
+  }, {
+    "name" : "package",
+    "value" : "features.cart.items_feature.Управление количеством наименований"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 6,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "288536ecea3ae8db",
+        "status" : "broken",
+        "statusDetails" : "Could not initialize class ru.zizitop.example.pages.ShopPages",
+        "time" : {
+          "start" : 1644319401057,
+          "stop" : 1644319401061,
+          "duration" : 4
+        }
+      }, {
+        "uid" : "de684c5bf31e609a",
+        "status" : "broken",
+        "statusDetails" : "Could not initialize class ru.zizitop.example.pages.ShopPages",
+        "time" : {
+          "start" : 1644318665104,
+          "stop" : 1644318665126,
+          "duration" : 22
+        }
+      }, {
+        "uid" : "51636b635e770b01",
+        "status" : "broken",
+        "statusDetails" : "Could not initialize class ru.zizitop.example.pages.ShopPages",
+        "time" : {
+          "start" : 1644317491624,
+          "stop" : 1644317491643,
+          "duration" : 19
+        }
+      }, {
+        "uid" : "7c4bcd4a96bf3bbd",
+        "status" : "broken",
+        "statusDetails" : "Could not initialize class ru.zizitop.example.pages.ShopPages",
+        "time" : {
+          "start" : 1644317301530,
+          "stop" : 1644317301534,
+          "duration" : 4
+        }
+      }, {
+        "uid" : "85eedca6742e8aec",
+        "status" : "broken",
+        "statusDetails" : "Could not initialize class ru.zizitop.example.pages.ShopPages",
+        "time" : {
+          "start" : 1644315859704,
+          "stop" : 1644315859712,
+          "duration" : 8
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "85cf890beb286010.json",
+  "parameterValues" : [ ]
+}
