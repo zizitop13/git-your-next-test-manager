@@ -1,12 +1,12 @@
 {
-  "uid" : "4bc2e54c0558818e",
+  "uid" : "60fa2e199684a4a3",
   "name" : "Сброс корзины для четырех наименований",
   "fullName" : "Управление корзиной: Сброс корзины для четырех наименований",
-  "historyId" : "9f2c782264db06b25b6768babb165800",
+  "historyId" : "661459df96506629ff787db10ac3500e",
   "time" : {
-    "start" : 1644323506846,
-    "stop" : 1644323531364,
-    "duration" : 24518
+    "start" : 1644324354206,
+    "stop" : 1644324379262,
+    "duration" : 25056
   },
   "description" : "  Я как пользователь хочу иметь возможность сбросить всю корзину нажатием одной кнопки",
   "descriptionHtml" : "<p>Я как пользователь хочу иметь возможность сбросить всю корзину нажатием одной кнопки</p>\n",
@@ -19,9 +19,9 @@
     "steps" : [ {
       "name" : "Если  пользователь нажмет на кнопку \"плюс\" для 1-го наименования",
       "time" : {
-        "start" : 1644323506848,
-        "stop" : 1644323530999,
-        "duration" : 24151
+        "start" : 1644324354208,
+        "stop" : 1644324378893,
+        "duration" : 24685
       },
       "status" : "passed",
       "steps" : [ ],
@@ -34,9 +34,9 @@
     }, {
       "name" : "Затем  пользователь нажмет на кнопку \"плюс\" для 2-го наименования",
       "time" : {
-        "start" : 1644323531001,
-        "stop" : 1644323531052,
-        "duration" : 51
+        "start" : 1644324378895,
+        "stop" : 1644324378944,
+        "duration" : 49
       },
       "status" : "passed",
       "steps" : [ ],
@@ -49,8 +49,8 @@
     }, {
       "name" : "Затем  пользователь нажмет на кнопку \"плюс\" для 3-го наименования",
       "time" : {
-        "start" : 1644323531053,
-        "stop" : 1644323531100,
+        "start" : 1644324378945,
+        "stop" : 1644324378992,
         "duration" : 47
       },
       "status" : "passed",
@@ -64,9 +64,9 @@
     }, {
       "name" : "Затем  пользователь нажмет на кнопку \"плюс\" для 4-го наименования",
       "time" : {
-        "start" : 1644323531100,
-        "stop" : 1644323531148,
-        "duration" : 48
+        "start" : 1644324378992,
+        "stop" : 1644324379044,
+        "duration" : 52
       },
       "status" : "passed",
       "steps" : [ ],
@@ -79,9 +79,9 @@
     }, {
       "name" : "Затем  пользователь нажмет на кнопку \"сбросить\"",
       "time" : {
-        "start" : 1644323531148,
-        "stop" : 1644323531197,
-        "duration" : 49
+        "start" : 1644324379044,
+        "stop" : 1644324379095,
+        "duration" : 51
       },
       "status" : "passed",
       "steps" : [ ],
@@ -94,9 +94,9 @@
     }, {
       "name" : "Тогда  количество наименований в корзине равно 0",
       "time" : {
-        "start" : 1644323531198,
-        "stop" : 1644323531228,
-        "duration" : 30
+        "start" : 1644324379095,
+        "stop" : 1644324379126,
+        "duration" : 31
       },
       "status" : "passed",
       "steps" : [ ],
@@ -109,8 +109,8 @@
     }, {
       "name" : "И  количество единиц 1-го наименования равно 0",
       "time" : {
-        "start" : 1644323531229,
-        "stop" : 1644323531255,
+        "start" : 1644324379126,
+        "stop" : 1644324379152,
         "duration" : 26
       },
       "status" : "passed",
@@ -124,9 +124,9 @@
     }, {
       "name" : "И  количество единиц 2-го наименования равно 0",
       "time" : {
-        "start" : 1644323531255,
-        "stop" : 1644323531289,
-        "duration" : 34
+        "start" : 1644324379153,
+        "stop" : 1644324379180,
+        "duration" : 27
       },
       "status" : "passed",
       "steps" : [ ],
@@ -139,9 +139,9 @@
     }, {
       "name" : "И  количество единиц 3-го наименования равно 0",
       "time" : {
-        "start" : 1644323531289,
-        "stop" : 1644323531317,
-        "duration" : 28
+        "start" : 1644324379181,
+        "stop" : 1644324379208,
+        "duration" : 27
       },
       "status" : "passed",
       "steps" : [ ],
@@ -154,8 +154,8 @@
     }, {
       "name" : "И  количество единиц 4-го наименования равно 0",
       "time" : {
-        "start" : 1644323531318,
-        "stop" : 1644323531343,
+        "start" : 1644324379208,
+        "stop" : 1644324379233,
         "duration" : 25
       },
       "status" : "passed",
@@ -177,9 +177,9 @@
   "afterStages" : [ {
     "name" : "ru.zizitop.example.steps.Hooks.refresh()",
     "time" : {
-      "start" : 1644323531344,
-      "stop" : 1644323531362,
-      "duration" : 18
+      "start" : 1644324379234,
+      "stop" : 1644324379260,
+      "duration" : 26
     },
     "status" : "passed",
     "steps" : [ ],
@@ -192,10 +192,10 @@
   } ],
   "labels" : [ {
     "name" : "host",
-    "value" : "fv-az129-413"
+    "value" : "fv-az132-78"
   }, {
     "name" : "thread",
-    "value" : "1906@fv-az129-413.main(1)"
+    "value" : "1921@fv-az132-78.main(1)"
   }, {
     "name" : "feature",
     "value" : "Управление корзиной"
@@ -225,70 +225,19 @@
     "value" : "allure2"
   } ],
   "parameters" : [ ],
-  "links" : [ ],
+  "links" : [ {
+    "name" : "2",
+    "url" : "https://github.com/zizitop13/git-your-next-test-manager/issues/2",
+    "type" : "issue"
+  } ],
   "hidden" : false,
   "retry" : false,
   "extra" : {
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "history" : {
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 6,
-        "skipped" : 0,
-        "passed" : 2,
-        "unknown" : 0,
-        "total" : 8
-      },
-      "items" : [ {
-        "uid" : "b57e4d1ff0da60bd",
-        "status" : "passed",
-        "time" : {
-          "start" : 1644320518602,
-          "stop" : 1644320548999,
-          "duration" : 30397
-        }
-      }, {
-        "uid" : "ac1f158fd11e2edb",
-        "status" : "broken",
-        "statusDetails" : "java.lang.ExceptionInInitializerError",
-        "time" : {
-          "start" : 1644319377410,
-          "stop" : 1644319400890,
-          "duration" : 23480
-        }
-      }, {
-        "uid" : "7488318fa22e48b1",
-        "status" : "broken",
-        "statusDetails" : "java.lang.ExceptionInInitializerError",
-        "time" : {
-          "start" : 1644318636613,
-          "stop" : 1644318664949,
-          "duration" : 28336
-        }
-      }, {
-        "uid" : "6562fa9744e09a42",
-        "status" : "broken",
-        "statusDetails" : "java.lang.ExceptionInInitializerError",
-        "time" : {
-          "start" : 1644317465570,
-          "stop" : 1644317491506,
-          "duration" : 25936
-        }
-      }, {
-        "uid" : "aafa9e4f36797723",
-        "status" : "broken",
-        "statusDetails" : "java.lang.ExceptionInInitializerError",
-        "time" : {
-          "start" : 1644317275057,
-          "stop" : 1644317301382,
-          "duration" : 26325
-        }
-      } ]
-    },
     "tags" : [ ]
   },
-  "source" : "4bc2e54c0558818e.json",
+  "source" : "60fa2e199684a4a3.json",
   "parameterValues" : [ ]
 }

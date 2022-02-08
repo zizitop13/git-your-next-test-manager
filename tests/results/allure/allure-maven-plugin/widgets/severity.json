@@ -1,60 +1,60 @@
 [ {
-  "uid" : "72cc0d656eec966",
+  "uid" : "752a2e2867f25663",
   "name" : "Уменьшение количества одного наименования до единицы",
   "time" : {
-    "start" : 1644323532201,
-    "stop" : 1644323532470,
-    "duration" : 269
+    "start" : 1644324380217,
+    "stop" : 1644324380463,
+    "duration" : 246
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "2e2c70e00394c8da",
-  "name" : "Уменьшение количества одного наименования до нуля",
-  "time" : {
-    "start" : 1644323532034,
-    "stop" : 1644323532194,
-    "duration" : 160
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "223e1e4fa5a0fb8d",
-  "name" : "Добавление четырех наименований",
-  "time" : {
-    "start" : 1644323531445,
-    "stop" : 1644323531785,
-    "duration" : 340
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4bc2e54c0558818e",
+  "uid" : "60fa2e199684a4a3",
   "name" : "Сброс корзины для четырех наименований",
   "time" : {
-    "start" : 1644323506846,
-    "stop" : 1644323531364,
-    "duration" : 24518
+    "start" : 1644324354206,
+    "stop" : 1644324379262,
+    "duration" : 25056
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "1b818f5de916ab36",
-  "name" : "Удаление наименования",
+  "uid" : "c22ddfbcf66d5bec",
+  "name" : "Добавление четырех наименований",
   "time" : {
-    "start" : 1644323532478,
-    "stop" : 1644323532755,
-    "duration" : 277
+    "start" : 1644324379366,
+    "stop" : 1644324379685,
+    "duration" : 319
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "63dbbb99c1cd991d",
+  "uid" : "34930e6abf35bf5c",
+  "name" : "Уменьшение количества одного наименования до нуля",
+  "time" : {
+    "start" : 1644324379877,
+    "stop" : 1644324380208,
+    "duration" : 331
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5da982affbc5224",
   "name" : "Добавление нескольких единиц одного наименования",
   "time" : {
-    "start" : 1644323531808,
-    "stop" : 1644323532021,
-    "duration" : 213
+    "start" : 1644324379711,
+    "stop" : 1644324379855,
+    "duration" : 144
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ded41abed0b1fa1",
+  "name" : "Удаление наименования",
+  "time" : {
+    "start" : 1644324380472,
+    "stop" : 1644324380682,
+    "duration" : 210
   },
   "status" : "passed",
   "severity" : "normal"
