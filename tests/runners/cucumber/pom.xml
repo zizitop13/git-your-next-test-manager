@@ -87,11 +87,7 @@
                         </property>
                         <property>
                             <name>allure.link.issue.pattern</name>
-                            <value>https://example.org/issue/{}</value>
-                        </property>
-                        <property>
-                            <name>allure.link.tms.pattern</name>
-                            <value>https://example.org/tms/{}</value>
+                            <value>https://github.com/zizitop13/git-your-next-test-manager/issues/{}</value>
                         </property>
                     </systemProperties>
                     <testFailureIgnore>true</testFailureIgnore>
