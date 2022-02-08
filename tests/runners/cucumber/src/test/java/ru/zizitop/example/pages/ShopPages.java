@@ -20,8 +20,7 @@ public class ShopPages {
         wdm = WebDriverManager.chromedriver();
         if (env != null && env.equals("CI")) {
             host = "host.docker.internal";
-            wdm = wdm.browserInDocker()
-                    .enableRecording();
+            wdm = wdm.browserInDocker();
         }
         driver = wdm.create();
         driver.manage().window().maximize();
