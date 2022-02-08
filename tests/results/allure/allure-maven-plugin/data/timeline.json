@@ -3,81 +3,81 @@
   "children" : [ {
     "name" : "fv-az132-78",
     "children" : [ {
-      "name" : "1921@fv-az132-78.main(1)",
+      "name" : "1930@fv-az132-78.main(1)",
       "children" : [ {
-        "name" : "Добавление четырех наименований",
-        "uid" : "c22ddfbcf66d5bec",
-        "parentUid" : "bbda5da2b876e1d45d39725805ca53d6",
+        "name" : "Удаление наименования",
+        "uid" : "b2c18fbe86d2d0c5",
+        "parentUid" : "17b2cf0bfb1a125d48729ea4caf68c9e",
         "status" : "passed",
         "time" : {
-          "start" : 1644324379366,
-          "stop" : 1644324379685,
-          "duration" : 319
+          "start" : 1644324949036,
+          "stop" : 1644324949280,
+          "duration" : 244
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Добавление нескольких единиц одного наименования",
-        "uid" : "a5da982affbc5224",
-        "parentUid" : "bbda5da2b876e1d45d39725805ca53d6",
+        "uid" : "e46d889641f9df9d",
+        "parentUid" : "17b2cf0bfb1a125d48729ea4caf68c9e",
         "status" : "passed",
         "time" : {
-          "start" : 1644324379711,
-          "stop" : 1644324379855,
-          "duration" : 144
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Уменьшение количества одного наименования до нуля",
-        "uid" : "34930e6abf35bf5c",
-        "parentUid" : "bbda5da2b876e1d45d39725805ca53d6",
-        "status" : "passed",
-        "time" : {
-          "start" : 1644324379877,
-          "stop" : 1644324380208,
-          "duration" : 331
+          "start" : 1644324948077,
+          "stop" : 1644324948393,
+          "duration" : 316
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Уменьшение количества одного наименования до единицы",
-        "uid" : "752a2e2867f25663",
-        "parentUid" : "bbda5da2b876e1d45d39725805ca53d6",
+        "uid" : "725e756f860885c8",
+        "parentUid" : "17b2cf0bfb1a125d48729ea4caf68c9e",
         "status" : "passed",
         "time" : {
-          "start" : 1644324380217,
-          "stop" : 1644324380463,
-          "duration" : 246
+          "start" : 1644324948736,
+          "stop" : 1644324949030,
+          "duration" : 294
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Удаление наименования",
-        "uid" : "ded41abed0b1fa1",
-        "parentUid" : "bbda5da2b876e1d45d39725805ca53d6",
+        "name" : "Уменьшение количества одного наименования до нуля",
+        "uid" : "fb159e447218f7ee",
+        "parentUid" : "17b2cf0bfb1a125d48729ea4caf68c9e",
         "status" : "passed",
         "time" : {
-          "start" : 1644324380472,
-          "stop" : 1644324380682,
-          "duration" : 210
+          "start" : 1644324948409,
+          "stop" : 1644324948721,
+          "duration" : 312
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Добавление четырех наименований",
+        "uid" : "b952b015171affb6",
+        "parentUid" : "17b2cf0bfb1a125d48729ea4caf68c9e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644324947690,
+          "stop" : 1644324948017,
+          "duration" : 327
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Сброс корзины для четырех наименований",
-        "uid" : "60fa2e199684a4a3",
-        "parentUid" : "bbda5da2b876e1d45d39725805ca53d6",
+        "uid" : "a140bf2c188de1b1",
+        "parentUid" : "17b2cf0bfb1a125d48729ea4caf68c9e",
         "status" : "passed",
         "time" : {
-          "start" : 1644324354206,
-          "stop" : 1644324379262,
-          "duration" : 25056
+          "start" : 1644324922118,
+          "stop" : 1644324947608,
+          "duration" : 25490
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "bbda5da2b876e1d45d39725805ca53d6"
+      "uid" : "17b2cf0bfb1a125d48729ea4caf68c9e"
     } ],
     "uid" : "263c9209c3c4cf2b5f97bf9d01617b70"
   } ],
