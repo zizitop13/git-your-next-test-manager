@@ -2,13 +2,22 @@
   "b3b46b7d45d5f85fac232dc70375067a" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "9dee8e1e46e0dd8d",
+      "status" : "broken",
+      "statusDetails" : "Could not initialize class ru.zizitop.example.pages.ShopPages",
+      "time" : {
+        "start" : 1644315859684,
+        "stop" : 1644315859693,
+        "duration" : 9
+      }
+    }, {
       "uid" : "bc7dbc15c3b968b2",
       "status" : "broken",
       "statusDetails" : "Could not initialize class ru.zizitop.example.pages.ShopPages",
@@ -22,13 +31,22 @@
   "6d40dbfef313fea3edba9c9ffbf633d6" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "85eedca6742e8aec",
+      "status" : "broken",
+      "statusDetails" : "Could not initialize class ru.zizitop.example.pages.ShopPages",
+      "time" : {
+        "start" : 1644315859704,
+        "stop" : 1644315859712,
+        "duration" : 8
+      }
+    }, {
       "uid" : "4c05589b395f7d67",
       "status" : "broken",
       "statusDetails" : "Could not initialize class ru.zizitop.example.pages.ShopPages",
@@ -42,13 +60,22 @@
   "95d2c79507f7ea53751e660e0d02545e" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "5e692db9a6db4850",
+      "status" : "broken",
+      "statusDetails" : "Could not initialize class ru.zizitop.example.pages.ShopPages",
+      "time" : {
+        "start" : 1644315859636,
+        "stop" : 1644315859650,
+        "duration" : 14
+      }
+    }, {
       "uid" : "24f11637c36308e3",
       "status" : "broken",
       "statusDetails" : "Could not initialize class ru.zizitop.example.pages.ShopPages",
@@ -62,13 +89,22 @@
   "7038e32303ff280cbdbfd3182a154bb2" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "50bc7d15fe5713a6",
+      "status" : "broken",
+      "statusDetails" : "Could not initialize class ru.zizitop.example.pages.ShopPages",
+      "time" : {
+        "start" : 1644315859574,
+        "stop" : 1644315859589,
+        "duration" : 15
+      }
+    }, {
       "uid" : "4e27d7b961c9a7bb",
       "status" : "broken",
       "statusDetails" : "Could not initialize class ru.zizitop.example.pages.ShopPages",
@@ -82,13 +118,22 @@
   "9f2c782264db06b25b6768babb165800" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "a509748e7771eba5",
+      "status" : "broken",
+      "statusDetails" : "java.lang.ExceptionInInitializerError",
+      "time" : {
+        "start" : 1644315837826,
+        "stop" : 1644315859420,
+        "duration" : 21594
+      }
+    }, {
       "uid" : "f90ea53099979e32",
       "status" : "broken",
       "statusDetails" : "java.lang.ExceptionInInitializerError",
@@ -102,13 +147,22 @@
   "75a6ffe9fb078caebf9018efe6b75799" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "cb7bc9735b1525b",
+      "status" : "broken",
+      "statusDetails" : "Could not initialize class ru.zizitop.example.pages.ShopPages",
+      "time" : {
+        "start" : 1644315859662,
+        "stop" : 1644315859675,
+        "duration" : 13
+      }
+    }, {
       "uid" : "2ac95a661c0d19a6",
       "status" : "broken",
       "statusDetails" : "Could not initialize class ru.zizitop.example.pages.ShopPages",

@@ -1,85 +1,85 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "fv-az193-4",
+    "name" : "fv-az129-413",
     "children" : [ {
-      "name" : "1779@fv-az193-4.main(1)",
+      "name" : "1938@fv-az129-413.main(1)",
       "children" : [ {
-        "name" : "Сброс корзины для четырех наименований",
-        "uid" : "f90ea53099979e32",
-        "parentUid" : "932e7b27442a27306398efad996e3da8",
-        "status" : "broken",
-        "time" : {
-          "start" : 1644242099475,
-          "stop" : 1644242119905,
-          "duration" : 20430
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Добавление четырех наименований",
-        "uid" : "4e27d7b961c9a7bb",
-        "parentUid" : "932e7b27442a27306398efad996e3da8",
-        "status" : "broken",
-        "time" : {
-          "start" : 1644242120039,
-          "stop" : 1644242120060,
-          "duration" : 21
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "Уменьшение количества одного наименования до единицы",
-        "uid" : "bc7dbc15c3b968b2",
-        "parentUid" : "932e7b27442a27306398efad996e3da8",
+        "uid" : "9dee8e1e46e0dd8d",
+        "parentUid" : "019926cc16319a7ba684fa3dbef78292",
         "status" : "broken",
         "time" : {
-          "start" : 1644242120126,
-          "stop" : 1644242120131,
-          "duration" : 5
+          "start" : 1644315859684,
+          "stop" : 1644315859693,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Сброс корзины для четырех наименований",
+        "uid" : "a509748e7771eba5",
+        "parentUid" : "019926cc16319a7ba684fa3dbef78292",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644315837826,
+          "stop" : 1644315859420,
+          "duration" : 21594
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Добавление нескольких единиц одного наименования",
-        "uid" : "24f11637c36308e3",
-        "parentUid" : "932e7b27442a27306398efad996e3da8",
+        "uid" : "5e692db9a6db4850",
+        "parentUid" : "019926cc16319a7ba684fa3dbef78292",
         "status" : "broken",
         "time" : {
-          "start" : 1644242120082,
-          "stop" : 1644242120085,
-          "duration" : 3
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Уменьшение количества одного наименования до нуля",
-        "uid" : "2ac95a661c0d19a6",
-        "parentUid" : "932e7b27442a27306398efad996e3da8",
-        "status" : "broken",
-        "time" : {
-          "start" : 1644242120096,
-          "stop" : 1644242120111,
-          "duration" : 15
+          "start" : 1644315859636,
+          "stop" : 1644315859650,
+          "duration" : 14
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Удаление наименования",
-        "uid" : "4c05589b395f7d67",
-        "parentUid" : "932e7b27442a27306398efad996e3da8",
+        "uid" : "85eedca6742e8aec",
+        "parentUid" : "019926cc16319a7ba684fa3dbef78292",
         "status" : "broken",
         "time" : {
-          "start" : 1644242120143,
-          "stop" : 1644242120146,
-          "duration" : 3
+          "start" : 1644315859704,
+          "stop" : 1644315859712,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Добавление четырех наименований",
+        "uid" : "50bc7d15fe5713a6",
+        "parentUid" : "019926cc16319a7ba684fa3dbef78292",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644315859574,
+          "stop" : 1644315859589,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Уменьшение количества одного наименования до нуля",
+        "uid" : "cb7bc9735b1525b",
+        "parentUid" : "019926cc16319a7ba684fa3dbef78292",
+        "status" : "broken",
+        "time" : {
+          "start" : 1644315859662,
+          "stop" : 1644315859675,
+          "duration" : 13
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "932e7b27442a27306398efad996e3da8"
+      "uid" : "019926cc16319a7ba684fa3dbef78292"
     } ],
-    "uid" : "0d6c4064bb72e4ca70c8e4a8e9f20eeb"
+    "uid" : "0196bfb76a26c90f9df0953b75359c46"
   } ],
   "name" : "timeline"
 }
