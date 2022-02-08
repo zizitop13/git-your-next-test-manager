@@ -3,6 +3,8 @@ package ru.zizitop.example.pages;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 
+import java.net.Inet4Address;
+import java.net.UnknownHostException;
 import java.time.Duration;
 
 public class ShopPages {
@@ -15,11 +17,15 @@ public class ShopPages {
     public static WebDriver driver;
 
     static {
-        var host = "localhost";
+        String host = null;
+        try {
+            host = Inet4Address.getLocalHost().getHostAddress();
+        } catch (UnknownHostException e) {
+            e.printStackTrace();
+        }
         var env = System.getenv("ENV");
         wdm = WebDriverManager.chromedriver();
         if (env != null && env.equals("CI")) {
-            host = "host.docker.internal";
             wdm = wdm.browserInDocker();
         }
         driver = wdm.create();
