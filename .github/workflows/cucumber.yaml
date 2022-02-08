@@ -34,15 +34,11 @@ jobs:
         with:
           node-version: 14.x
 
-      - name: install
-        id: npm_install
-        run: npm install
-        working-directory: ./app
-
-      - name: start
-        id: npm_start
-        run: npm start
-        working-directory: ./app
+      - name: npm start app
+        run: |
+          npm ci
+          npm run build --if-present
+          npm start & npx wait-on http://localhost:3000
 
       - name: run tests
         id: tests
