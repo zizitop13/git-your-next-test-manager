@@ -1,12 +1,12 @@
 {
-  "uid" : "9cead41b9e5fab73",
-  "name" : "Добавление четырех наименований",
-  "fullName" : "Управление количеством наименований: Добавление четырех наименований",
-  "historyId" : "7038e32303ff280cbdbfd3182a154bb2",
+  "uid" : "1b818f5de916ab36",
+  "name" : "Удаление наименования",
+  "fullName" : "Управление количеством наименований: Удаление наименования",
+  "historyId" : "6d40dbfef313fea3edba9c9ffbf633d6",
   "time" : {
-    "start" : 1644320549101,
-    "stop" : 1644320549545,
-    "duration" : 444
+    "start" : 1644323532478,
+    "stop" : 1644323532755,
+    "duration" : 277
   },
   "description" : "  Я как пользователь хочу иметь возможность добавлять, уменьшать и убирать наименования,\n  видеть количество наименований в корзине и количество единиц для каждого добавленного наименования.",
   "descriptionHtml" : "<p>Я как пользователь хочу иметь возможность добавлять, уменьшать и убирать наименования,\nвидеть количество наименований в корзине и количество единиц для каждого добавленного наименования.</p>\n",
@@ -17,11 +17,11 @@
     "description" : "  Я как пользователь хочу иметь возможность добавлять, уменьшать и убирать наименования,\n  видеть количество наименований в корзине и количество единиц для каждого добавленного наименования.",
     "status" : "passed",
     "steps" : [ {
-      "name" : "Если  пользователь нажмет на кнопку \"плюс\" для 1-го наименования",
+      "name" : "Затем  пользователь нажмет на кнопку \"плюс\" для 1-го наименования",
       "time" : {
-        "start" : 1644320549103,
-        "stop" : 1644320549220,
-        "duration" : 117
+        "start" : 1644323532479,
+        "stop" : 1644323532590,
+        "duration" : 111
       },
       "status" : "passed",
       "steps" : [ ],
@@ -32,11 +32,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Затем  пользователь нажмет на кнопку \"плюс\" для 2-го наименования",
+      "name" : "Если  пользователь нажмет на кнопку \"удалить\" для 1-го наименования",
       "time" : {
-        "start" : 1644320549221,
-        "stop" : 1644320549278,
-        "duration" : 57
+        "start" : 1644323532591,
+        "stop" : 1644323532634,
+        "duration" : 43
       },
       "status" : "passed",
       "steps" : [ ],
@@ -47,41 +47,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Затем  пользователь нажмет на кнопку \"плюс\" для 3-го наименования",
+      "name" : "И  количество наименований в корзине равно 0",
       "time" : {
-        "start" : 1644320549278,
-        "stop" : 1644320549338,
-        "duration" : 60
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "Затем  пользователь нажмет на кнопку \"плюс\" для 4-го наименования",
-      "time" : {
-        "start" : 1644320549338,
-        "stop" : 1644320549399,
-        "duration" : 61
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "Тогда  количество наименований в корзине равно 4",
-      "time" : {
-        "start" : 1644320549399,
-        "stop" : 1644320549435,
-        "duration" : 36
+        "start" : 1644323532634,
+        "stop" : 1644323532673,
+        "duration" : 39
       },
       "status" : "passed",
       "steps" : [ ],
@@ -94,7 +64,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 5,
+    "stepsCount" : 3,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -102,9 +72,9 @@
   "afterStages" : [ {
     "name" : "ru.zizitop.example.steps.Hooks.refresh()",
     "time" : {
-      "start" : 1644320549435,
-      "stop" : 1644320549545,
-      "duration" : 110
+      "start" : 1644323532673,
+      "stop" : 1644323532755,
+      "duration" : 82
     },
     "status" : "passed",
     "steps" : [ ],
@@ -117,22 +87,22 @@
   } ],
   "labels" : [ {
     "name" : "host",
-    "value" : "fv-az278-258"
+    "value" : "fv-az129-413"
   }, {
     "name" : "thread",
-    "value" : "1877@fv-az278-258.main(1)"
+    "value" : "1906@fv-az129-413.main(1)"
   }, {
     "name" : "feature",
     "value" : "Управление количеством наименований"
   }, {
     "name" : "story",
-    "value" : "Добавление четырех наименований"
+    "value" : "Удаление наименования"
   }, {
     "name" : "suite",
     "value" : "Управление количеством наименований"
   }, {
     "name" : "testClass",
-    "value" : "Добавление четырех наименований"
+    "value" : "Удаление наименования"
   }, {
     "name" : "framework",
     "value" : "cucumber4jvm"
@@ -162,59 +132,58 @@
         "failed" : 0,
         "broken" : 6,
         "skipped" : 0,
-        "passed" : 1,
+        "passed" : 2,
         "unknown" : 0,
-        "total" : 7
+        "total" : 8
       },
       "items" : [ {
-        "uid" : "6fa8c2bb72eeda14",
-        "status" : "broken",
-        "statusDetails" : "Could not initialize class ru.zizitop.example.pages.ShopPages",
+        "uid" : "85cf890beb286010",
+        "status" : "passed",
         "time" : {
-          "start" : 1644319400963,
-          "stop" : 1644319400987,
-          "duration" : 24
+          "start" : 1644320550471,
+          "stop" : 1644320550813,
+          "duration" : 342
         }
       }, {
-        "uid" : "928885cbaadb99f7",
+        "uid" : "288536ecea3ae8db",
         "status" : "broken",
         "statusDetails" : "Could not initialize class ru.zizitop.example.pages.ShopPages",
         "time" : {
-          "start" : 1644318664979,
-          "stop" : 1644318664985,
-          "duration" : 6
+          "start" : 1644319401057,
+          "stop" : 1644319401061,
+          "duration" : 4
         }
       }, {
-        "uid" : "482105d486f64326",
+        "uid" : "de684c5bf31e609a",
         "status" : "broken",
         "statusDetails" : "Could not initialize class ru.zizitop.example.pages.ShopPages",
         "time" : {
-          "start" : 1644317491533,
-          "stop" : 1644317491542,
-          "duration" : 9
+          "start" : 1644318665104,
+          "stop" : 1644318665126,
+          "duration" : 22
         }
       }, {
-        "uid" : "e8384954b4c03bf8",
+        "uid" : "51636b635e770b01",
         "status" : "broken",
         "statusDetails" : "Could not initialize class ru.zizitop.example.pages.ShopPages",
         "time" : {
-          "start" : 1644317301437,
-          "stop" : 1644317301450,
-          "duration" : 13
+          "start" : 1644317491624,
+          "stop" : 1644317491643,
+          "duration" : 19
         }
       }, {
-        "uid" : "50bc7d15fe5713a6",
+        "uid" : "7c4bcd4a96bf3bbd",
         "status" : "broken",
         "statusDetails" : "Could not initialize class ru.zizitop.example.pages.ShopPages",
         "time" : {
-          "start" : 1644315859574,
-          "stop" : 1644315859589,
-          "duration" : 15
+          "start" : 1644317301530,
+          "stop" : 1644317301534,
+          "duration" : 4
         }
       } ]
     },
     "tags" : [ ]
   },
-  "source" : "9cead41b9e5fab73.json",
+  "source" : "1b818f5de916ab36.json",
   "parameterValues" : [ ]
 }

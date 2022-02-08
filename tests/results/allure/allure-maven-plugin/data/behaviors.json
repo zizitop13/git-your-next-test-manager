@@ -6,13 +6,13 @@
       "name" : "Сброс корзины для четырех наименований",
       "children" : [ {
         "name" : "Сброс корзины для четырех наименований",
-        "uid" : "b57e4d1ff0da60bd",
+        "uid" : "4bc2e54c0558818e",
         "parentUid" : "f8d385d80308bd379497ffd670607579",
         "status" : "passed",
         "time" : {
-          "start" : 1644320518602,
-          "stop" : 1644320548999,
-          "duration" : 30397
+          "start" : 1644323506846,
+          "stop" : 1644323531364,
+          "duration" : 24518
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -26,13 +26,13 @@
       "name" : "Добавление четырех наименований",
       "children" : [ {
         "name" : "Добавление четырех наименований",
-        "uid" : "9cead41b9e5fab73",
+        "uid" : "223e1e4fa5a0fb8d",
         "parentUid" : "a7669c31663de604ceea86415d7dc38e",
         "status" : "passed",
         "time" : {
-          "start" : 1644320549101,
-          "stop" : 1644320549545,
-          "duration" : 444
+          "start" : 1644323531445,
+          "stop" : 1644323531785,
+          "duration" : 340
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -42,13 +42,13 @@
       "name" : "Добавление нескольких единиц одного наименования",
       "children" : [ {
         "name" : "Добавление нескольких единиц одного наименования",
-        "uid" : "903e4d6220990ddf",
+        "uid" : "63dbbb99c1cd991d",
         "parentUid" : "e3fedbdd73bdc1c1d7cff367f15b6deb",
         "status" : "passed",
         "time" : {
-          "start" : 1644320549562,
-          "stop" : 1644320549767,
-          "duration" : 205
+          "start" : 1644323531808,
+          "stop" : 1644323532021,
+          "duration" : 213
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -58,13 +58,13 @@
       "name" : "Уменьшение количества одного наименования до нуля",
       "children" : [ {
         "name" : "Уменьшение количества одного наименования до нуля",
-        "uid" : "f54bd0c8a2f8dc64",
+        "uid" : "2e2c70e00394c8da",
         "parentUid" : "9a810a284a2735ece3af78227aa015b2",
         "status" : "passed",
         "time" : {
-          "start" : 1644320549803,
-          "stop" : 1644320550179,
-          "duration" : 376
+          "start" : 1644323532034,
+          "stop" : 1644323532194,
+          "duration" : 160
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -74,13 +74,13 @@
       "name" : "Уменьшение количества одного наименования до единицы",
       "children" : [ {
         "name" : "Уменьшение количества одного наименования до единицы",
-        "uid" : "1da140e59b5ad783",
+        "uid" : "72cc0d656eec966",
         "parentUid" : "50935b60624b1b762164a0c2d5bb75d3",
         "status" : "passed",
         "time" : {
-          "start" : 1644320550188,
-          "stop" : 1644320550441,
-          "duration" : 253
+          "start" : 1644323532201,
+          "stop" : 1644323532470,
+          "duration" : 269
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -90,13 +90,13 @@
       "name" : "Удаление наименования",
       "children" : [ {
         "name" : "Удаление наименования",
-        "uid" : "85cf890beb286010",
+        "uid" : "1b818f5de916ab36",
         "parentUid" : "abcd56e9476be0f7b094a1bd7afd6a86",
         "status" : "passed",
         "time" : {
-          "start" : 1644320550471,
-          "stop" : 1644320550813,
-          "duration" : 342
+          "start" : 1644323532478,
+          "stop" : 1644323532755,
+          "duration" : 277
         },
         "flaky" : false,
         "parameters" : [ ]

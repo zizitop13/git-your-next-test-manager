@@ -1,60 +1,60 @@
 [ {
-  "uid" : "b57e4d1ff0da60bd",
-  "name" : "Сброс корзины для четырех наименований",
-  "time" : {
-    "start" : 1644320518602,
-    "stop" : 1644320548999,
-    "duration" : 30397
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "903e4d6220990ddf",
-  "name" : "Добавление нескольких единиц одного наименования",
-  "time" : {
-    "start" : 1644320549562,
-    "stop" : 1644320549767,
-    "duration" : 205
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f54bd0c8a2f8dc64",
-  "name" : "Уменьшение количества одного наименования до нуля",
-  "time" : {
-    "start" : 1644320549803,
-    "stop" : 1644320550179,
-    "duration" : 376
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1da140e59b5ad783",
-  "name" : "Уменьшение количества одного наименования до единицы",
-  "time" : {
-    "start" : 1644320550188,
-    "stop" : 1644320550441,
-    "duration" : 253
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9cead41b9e5fab73",
+  "uid" : "223e1e4fa5a0fb8d",
   "name" : "Добавление четырех наименований",
   "time" : {
-    "start" : 1644320549101,
-    "stop" : 1644320549545,
-    "duration" : 444
+    "start" : 1644323531445,
+    "stop" : 1644323531785,
+    "duration" : 340
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "85cf890beb286010",
+  "uid" : "1b818f5de916ab36",
   "name" : "Удаление наименования",
   "time" : {
-    "start" : 1644320550471,
-    "stop" : 1644320550813,
-    "duration" : 342
+    "start" : 1644323532478,
+    "stop" : 1644323532755,
+    "duration" : 277
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4bc2e54c0558818e",
+  "name" : "Сброс корзины для четырех наименований",
+  "time" : {
+    "start" : 1644323506846,
+    "stop" : 1644323531364,
+    "duration" : 24518
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e2c70e00394c8da",
+  "name" : "Уменьшение количества одного наименования до нуля",
+  "time" : {
+    "start" : 1644323532034,
+    "stop" : 1644323532194,
+    "duration" : 160
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "72cc0d656eec966",
+  "name" : "Уменьшение количества одного наименования до единицы",
+  "time" : {
+    "start" : 1644323532201,
+    "stop" : 1644323532470,
+    "duration" : 269
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "63dbbb99c1cd991d",
+  "name" : "Добавление нескольких единиц одного наименования",
+  "time" : {
+    "start" : 1644323531808,
+    "stop" : 1644323532021,
+    "duration" : 213
   },
   "status" : "passed",
   "severity" : "normal"

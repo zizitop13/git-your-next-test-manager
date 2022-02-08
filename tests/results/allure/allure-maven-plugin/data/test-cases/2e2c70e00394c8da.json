@@ -1,50 +1,44 @@
 {
-  "uid" : "51a269d10b982d83",
+  "uid" : "2e2c70e00394c8da",
   "name" : "Уменьшение количества одного наименования до нуля",
   "fullName" : "Управление количеством наименований: Уменьшение количества одного наименования до нуля",
   "historyId" : "75a6ffe9fb078caebf9018efe6b75799",
   "time" : {
-    "start" : 1644318665052,
-    "stop" : 1644318665074,
-    "duration" : 22
+    "start" : 1644323532034,
+    "stop" : 1644323532194,
+    "duration" : 160
   },
   "description" : "  Я как пользователь хочу иметь возможность добавлять, уменьшать и убирать наименования,\n  видеть количество наименований в корзине и количество единиц для каждого добавленного наименования.",
   "descriptionHtml" : "<p>Я как пользователь хочу иметь возможность добавлять, уменьшать и убирать наименования,\nвидеть количество наименований в корзине и количество единиц для каждого добавленного наименования.</p>\n",
-  "status" : "broken",
-  "statusMessage" : "Could not initialize class ru.zizitop.example.pages.ShopPages",
-  "statusTrace" : "java.lang.NoClassDefFoundError: Could not initialize class ru.zizitop.example.pages.ShopPages\n\tat ru.zizitop.example.steps.ItemStepdefs.plusItem(ItemStepdefs.java:19)\n\tat ✽.пользователь нажмет на кнопку \"плюс\" для 1-го наименования(classpath:features/cart/items.feature:21)\n",
+  "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ ],
   "testStage" : {
     "description" : "  Я как пользователь хочу иметь возможность добавлять, уменьшать и убирать наименования,\n  видеть количество наименований в корзине и количество единиц для каждого добавленного наименования.",
-    "status" : "broken",
-    "statusMessage" : "Could not initialize class ru.zizitop.example.pages.ShopPages",
-    "statusTrace" : "java.lang.NoClassDefFoundError: Could not initialize class ru.zizitop.example.pages.ShopPages\n\tat ru.zizitop.example.steps.ItemStepdefs.plusItem(ItemStepdefs.java:19)\n\tat ✽.пользователь нажмет на кнопку \"плюс\" для 1-го наименования(classpath:features/cart/items.feature:21)\n",
+    "status" : "passed",
     "steps" : [ {
       "name" : "Если  пользователь нажмет на кнопку \"плюс\" для 1-го наименования",
       "time" : {
-        "start" : 1644318665052,
-        "stop" : 1644318665053,
-        "duration" : 1
+        "start" : 1644323532034,
+        "stop" : 1644323532076,
+        "duration" : 42
       },
-      "status" : "broken",
-      "statusMessage" : "Could not initialize class ru.zizitop.example.pages.ShopPages",
-      "statusTrace" : "java.lang.NoClassDefFoundError: Could not initialize class ru.zizitop.example.pages.ShopPages\n\tat ru.zizitop.example.steps.ItemStepdefs.plusItem(ItemStepdefs.java:19)\n\tat ✽.пользователь нажмет на кнопку \"плюс\" для 1-го наименования(classpath:features/cart/items.feature:21)\n",
+      "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
       "stepsCount" : 0,
       "attachmentsCount" : 0,
-      "shouldDisplayMessage" : true,
-      "hasContent" : true
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
     }, {
       "name" : "Затем  пользователь нажмет на кнопку \"минус\" для 1-го наименования",
       "time" : {
-        "start" : 1644318665056,
-        "stop" : 1644318665057,
-        "duration" : 1
+        "start" : 1644323532077,
+        "stop" : 1644323532125,
+        "duration" : 48
       },
-      "status" : "skipped",
+      "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
@@ -55,11 +49,11 @@
     }, {
       "name" : "Тогда  количество единиц 1-го наименования равно 0",
       "time" : {
-        "start" : 1644318665057,
-        "stop" : 1644318665057,
-        "duration" : 0
+        "start" : 1644323532125,
+        "stop" : 1644323532152,
+        "duration" : 27
       },
-      "status" : "skipped",
+      "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
@@ -70,11 +64,11 @@
     }, {
       "name" : "И  количество наименований в корзине равно 0",
       "time" : {
-        "start" : 1644318665057,
-        "stop" : 1644318665058,
-        "duration" : 1
+        "start" : 1644323532152,
+        "stop" : 1644323532178,
+        "duration" : 26
       },
-      "status" : "skipped",
+      "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
@@ -93,27 +87,25 @@
   "afterStages" : [ {
     "name" : "ru.zizitop.example.steps.Hooks.refresh()",
     "time" : {
-      "start" : 1644318665059,
-      "stop" : 1644318665059,
-      "duration" : 0
+      "start" : 1644323532178,
+      "stop" : 1644323532194,
+      "duration" : 16
     },
-    "status" : "broken",
-    "statusMessage" : "AFTER is failed: Could not initialize class ru.zizitop.example.pages.ShopPages",
-    "statusTrace" : "java.lang.NoClassDefFoundError: Could not initialize class ru.zizitop.example.pages.ShopPages\n\tat ru.zizitop.example.steps.Hooks.refresh(Hooks.java:9)\n",
+    "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
     "stepsCount" : 0,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : true,
-    "hasContent" : true
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
   } ],
   "labels" : [ {
     "name" : "host",
-    "value" : "fv-az190-627"
+    "value" : "fv-az129-413"
   }, {
     "name" : "thread",
-    "value" : "2029@fv-az190-627.main(1)"
+    "value" : "1906@fv-az129-413.main(1)"
   }, {
     "name" : "feature",
     "value" : "Управление количеством наименований"
@@ -149,21 +141,43 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ ],
-    "categories" : [ {
-      "name" : "Test defects",
-      "matchedStatuses" : [ ],
-      "flaky" : false
-    } ],
+    "categories" : [ ],
     "history" : {
       "statistic" : {
         "failed" : 0,
-        "broken" : 5,
+        "broken" : 6,
         "skipped" : 0,
-        "passed" : 0,
+        "passed" : 2,
         "unknown" : 0,
-        "total" : 5
+        "total" : 8
       },
       "items" : [ {
+        "uid" : "f54bd0c8a2f8dc64",
+        "status" : "passed",
+        "time" : {
+          "start" : 1644320549803,
+          "stop" : 1644320550179,
+          "duration" : 376
+        }
+      }, {
+        "uid" : "8f1d08d4fc3f4e86",
+        "status" : "broken",
+        "statusDetails" : "Could not initialize class ru.zizitop.example.pages.ShopPages",
+        "time" : {
+          "start" : 1644319401013,
+          "stop" : 1644319401031,
+          "duration" : 18
+        }
+      }, {
+        "uid" : "51a269d10b982d83",
+        "status" : "broken",
+        "statusDetails" : "Could not initialize class ru.zizitop.example.pages.ShopPages",
+        "time" : {
+          "start" : 1644318665052,
+          "stop" : 1644318665074,
+          "duration" : 22
+        }
+      }, {
         "uid" : "9c1453967e6262f3",
         "status" : "broken",
         "statusDetails" : "Could not initialize class ru.zizitop.example.pages.ShopPages",
@@ -181,28 +195,10 @@
           "stop" : 1644317301502,
           "duration" : 9
         }
-      }, {
-        "uid" : "cb7bc9735b1525b",
-        "status" : "broken",
-        "statusDetails" : "Could not initialize class ru.zizitop.example.pages.ShopPages",
-        "time" : {
-          "start" : 1644315859662,
-          "stop" : 1644315859675,
-          "duration" : 13
-        }
-      }, {
-        "uid" : "2ac95a661c0d19a6",
-        "status" : "broken",
-        "statusDetails" : "Could not initialize class ru.zizitop.example.pages.ShopPages",
-        "time" : {
-          "start" : 1644242120096,
-          "stop" : 1644242120111,
-          "duration" : 15
-        }
       } ]
     },
     "tags" : [ ]
   },
-  "source" : "51a269d10b982d83.json",
+  "source" : "2e2c70e00394c8da.json",
   "parameterValues" : [ ]
 }
