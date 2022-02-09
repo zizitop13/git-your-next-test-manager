@@ -4,11 +4,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "8d631895f74d026a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644386120619,
+        "stop" : 1644386121031,
+        "duration" : 412
+      }
+    }, {
       "uid" : "b952b015171affb6",
       "status" : "passed",
       "time" : {
@@ -85,11 +93,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "daf44bae47b5951e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644386080048,
+        "stop" : 1644386109960,
+        "duration" : 29912
+      }
+    }, {
       "uid" : "a140bf2c188de1b1",
       "status" : "passed",
       "time" : {
@@ -112,11 +128,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "c5953e0646553ec9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644386121581,
+        "stop" : 1644386121835,
+        "duration" : 254
+      }
+    }, {
       "uid" : "725e756f860885c8",
       "status" : "passed",
       "time" : {
@@ -355,11 +379,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "877230d1a67482fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644386121301,
+        "stop" : 1644386121572,
+        "duration" : 271
+      }
+    }, {
       "uid" : "fb159e447218f7ee",
       "status" : "passed",
       "time" : {
@@ -382,11 +414,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "1e72272193a83ce0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644386121044,
+        "stop" : 1644386121292,
+        "duration" : 248
+      }
+    }, {
       "uid" : "e46d889641f9df9d",
       "status" : "passed",
       "time" : {
@@ -409,11 +449,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "462715501032696f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644386121862,
+        "stop" : 1644386122161,
+        "duration" : 299
+      }
+    }, {
       "uid" : "b2c18fbe86d2d0c5",
       "status" : "passed",
       "time" : {
@@ -482,6 +530,26 @@
         "start" : 1644317465570,
         "stop" : 1644317491506,
         "duration" : 25936
+      }
+    } ]
+  },
+  "d5c697203a5712fdc91269a6f821faa4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c09e54f84710304a",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#item\\-counter\\-1\"}\n  (Session info: chrome=98.0.4758.80)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'fv-az278-765', ip: '10.1.1.129', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1028-azure', java.version: '11.0.11'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCommand: [32157cdfbd45f1ad9c372fce1e4800d9, findElement {using=id, value=item-counter-1}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.80, chrome: {chromedriverVersion: 98.0.4758.48 (d869ab3eda606..., userDataDir: /tmp/.com.google.Chrome.jGVzwa}, goog:chromeOptions: {debuggerAddress: localhost:40229}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 32157cdfbd45f1ad9c372fce1e4800d9",
+      "time" : {
+        "start" : 1644386110054,
+        "stop" : 1644386120594,
+        "duration" : 10540
       }
     } ]
   }
