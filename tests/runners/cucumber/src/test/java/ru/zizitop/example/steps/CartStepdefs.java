@@ -5,7 +5,7 @@ import static ru.zizitop.example.pages.ShopPages.shopCartPage;
 
 public class CartStepdefs {
 
-    @Затем("пользователь нажмет на кнопку \"сбросить\"")
+    @Затем("пользователь нажмет на кнопку сбросить")
     public void refreshCart() {
         shopCartPage.clickOnRefreshCartButton();
     }

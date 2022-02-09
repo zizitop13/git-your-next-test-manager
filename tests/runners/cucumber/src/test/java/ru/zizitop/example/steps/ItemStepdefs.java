@@ -14,17 +14,17 @@ public class ItemStepdefs {
         Assert.assertEquals(number, totalCountersNumber);
     }
 
-    @Если("пользователь нажмет на кнопку \"плюс\" для {int}-го наименования")
+    @Если("пользователь нажмет на кнопку плюс для {int}-го наименования")
     public void plusItem(int itemId) {
         shopCartPage.clickOnPlusItemButton(itemId);
     }
 
-    @Если("пользователь нажмет на кнопку \"минус\" для {int}-го наименования")
+    @Если("пользователь нажмет на кнопку минус для {int}-го наименования")
     public void minusItem(int itemId) {
         shopCartPage.clickOnMinusItemButton(itemId);
     }
 
-    @Если("пользователь нажмет на кнопку \"удалить\" для {int}-го наименования")
+    @Если("пользователь нажмет на кнопку удалить для {int}-го наименования")
     public void removeItem(int itemId) {
         shopCartPage.clickOnTrashItemButton(itemId);
     }
